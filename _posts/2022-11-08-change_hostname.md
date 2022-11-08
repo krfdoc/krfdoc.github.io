@@ -7,7 +7,7 @@ tags: [linux,hostname]
 
 ### How to Change your Hostname
 
-```sh
+```terminal
 hostname NEW_NAME_HERE
 ```
 
