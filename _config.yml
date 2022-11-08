@@ -21,7 +21,7 @@ timezone: America/Chicago
 
 title: KRF Docs                          # the main title
 
-tagline: Linux/Terminal documentation yo   # it will display as the sub-title
+tagline: Linux/Terminal documentation   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A repostitory of linux and terminal documentation that I seem to need over and over again.  ...and can't remember
