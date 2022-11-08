@@ -5,12 +5,17 @@ categories: [linux]
 tags: [linux,hostname]
 ---
 
-# How to Change your Hostname
+### How to Change your Hostname
 
 ```sh
-/etc /more stuff
+hostname NEW_NAME_HERE
 ```
 
-* list 1
-* list 2
-* list 3
+This will only change the hostname until next reboot.
+To change permanently edit each of these files one by one:
+
+```terminal
+sudo nano /etc/hostname
+sudo nano /etc/hosts
+```
+Restart computer to apply changes
