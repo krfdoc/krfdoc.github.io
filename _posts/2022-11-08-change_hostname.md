@@ -11,7 +11,7 @@ tags: [linux,hostname]
 hostname NEW_NAME_HERE
 ```
 
-This will only change the hostname until next reboot.
+This will only change the hostname until the next reboot.
 To change permanently edit each of these files one by one:
 
 ```terminal
