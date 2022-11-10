@@ -22,7 +22,7 @@ cd /var/lib/plexmediaserver/Library/'Application Support'/'Plex Media Server'
 ### CIFS/SMB Mounting (Section still needs work)
 
 See fstab file examples.  Watch permissions, but haven't figured out completely yet. I've been using open/guest privledges  
-Need to mount using "sudo mount -a" afer fstab cool
+Need to mount using "sudo mount -a" afer fstab cool. cool?
 
 ```bash
 sudo mount -a
