@@ -7,14 +7,14 @@ tags: [linux,hostname]
 
 ### How to Change your Hostname
 
-```terminal
+```bash
 hostname NEW_NAME_HERE
 ```
 
 This will only change the hostname until the next reboot.
 To change permanently edit each of these files one by one:
 
-```terminal
+```bash
 sudo nano /etc/hostname
 sudo nano /etc/hosts
 ```

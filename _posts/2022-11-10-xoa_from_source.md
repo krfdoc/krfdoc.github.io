@@ -14,8 +14,7 @@ tags: [linux,XCP-ng,] #lowercase.  No spaces [tag,tag,tag]  No real limit
 [Xen Orchestra Installer/Updater - Github ronivay](https://github.com/ronivay/XenOrchestraInstallerUpdater)
 
 > Lawerence Systems: How to build XO from sources on Debian 10 (or Ubuntu) using XenOrchestraInstallerUpdater
-
-[Watch Video](https://www.youtube.com/watch?v=bq1iKO-0jWs&t=10s)
+[![See Tom build!](https://i.ytimg.com/vi/bq1iKO-0jWs/hqdefault.jpg?)](https://www.youtube.com/watch?v=bq1iKO-0jWs&t=10s "See Tom build!")
 {: .prompt-tip }
 
 

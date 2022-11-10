@@ -15,9 +15,7 @@ sudo systemctl start plexediaserver.service
 
 ### Metadata file path
 
-```terminal
-cd /var/lib/plexmediaserver/Library/'Application Support'/'Plex Media Server'
-```
+`cd /var/lib/plexmediaserver/Library/'Application Support'/'Plex Media Server'`
 
 ### CIFS/SMB Mounting (Section still needs work)
 

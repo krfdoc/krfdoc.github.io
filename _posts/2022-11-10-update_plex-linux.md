@@ -11,12 +11,12 @@ tags: [linux,plex]
 * Use Filezilla or bitvise (some SFTP client) and copy file to home folder
 * Enter:
 
-```terminal
+```bash
 sudo dpkg -i <The_Newest_Plex_Version>.deb
 ```
 
 Then reboot server
 
-```terminal
+```bash
 sudo reboot now
 ```
