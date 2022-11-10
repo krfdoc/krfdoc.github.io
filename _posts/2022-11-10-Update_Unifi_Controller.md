@@ -1,17 +1,13 @@
 ---
 title: Update Unifi Controller
 date: 2022-11-10 07:00:00 -0500
-categories: [Unifi]
-tags: [Unifi]
+categories: [unifi]
+tags: [unifi]
 ---
 
 ### How to Update your Unifi Controller
 
-Link to post (someday turn this into an acutally link OK?):
-
-```terminal
-https://community.ubnt.com/t5/UniFi-Wireless/UniFi-Installation-Scripts-UniFi-Easy-Update-Scripts-Ubuntu-18/td-p/2375150
-```
+[See the Easy Unifi Updater forum post](https://community.ubnt.com/t5/UniFi-Wireless/UniFi-Installation-Scripts-UniFi-Easy-Update-Scripts-Ubuntu-18/td-p/2375150)
 
 * Copy the link location of the script (keep in mind version number will change!)
 
