@@ -48,3 +48,5 @@ rm unifi-latest.sh &> /dev/null; wget https://get.glennr.nl/unifi/install/instal
 ```terminal
 bash unifi-7.2.95.sh
 ```
+
+Thx for being awesome Glennr!
