@@ -4,5 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax (go me!) content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+> I'm just a guy wanting to document terminal commands that I always need
 {: .prompt-tip }
