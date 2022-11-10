@@ -7,7 +7,11 @@ tags: [Unifi]
 
 ### How to Update your Unifi Controller
 
-Link to post (someday turn this into an acutally link OK?): https://community.ubnt.com/t5/UniFi-Wireless/UniFi-Installation-Scripts-UniFi-Easy-Update-Scripts-Ubuntu-18/td-p/2375150
+Link to post (someday turn this into an acutally link OK?):
+
+```terminal
+https://community.ubnt.com/t5/UniFi-Wireless/UniFi-Installation-Scripts-UniFi-Easy-Update-Scripts-Ubuntu-18/td-p/2375150
+```
 
 * Copy the link location of the script (keep in mind version number will change!)
 
