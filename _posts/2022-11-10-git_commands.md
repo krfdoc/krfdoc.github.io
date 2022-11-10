@@ -1,7 +1,7 @@
 ---
 title: Git Commands
 date: 2022-11-10 09:00:00 -0500
-categories: [linux,git]
+categories: [linux, git]
 tags: [linux,git]
 ---
 
@@ -28,6 +28,7 @@ You just typo’d the last commit message, you did git commit -m "Fxies bug #42"
 git commit --amend
 ```
 or
+
 ```terminal
 git commit --amend -m "Fixes bug #42"
 ```
