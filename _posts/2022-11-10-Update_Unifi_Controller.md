@@ -33,7 +33,7 @@ apt-get update; apt-get install ca-certificates wget -y
 wget https://get.glennr.nl/unifi/install/unifi-7.2.95.sh
 ```
 
-...or just install it all with a "one liner"
+### ...or just install it all with a "one liner"
 
 ```terminal
 rm unifi-latest.sh &> /dev/null; wget https://get.glennr.nl/unifi/install/install_latest/unifi-latest.sh && bash unifi-latest.sh
