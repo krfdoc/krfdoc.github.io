@@ -1,7 +1,7 @@
 ---
 title: Git Commands
 date: 2022-11-09 06:00:00 -0500
-categories: [linux, git]
+categories: [git]
 tags: [linux,git]
 ---
 

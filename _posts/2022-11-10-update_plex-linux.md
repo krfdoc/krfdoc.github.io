@@ -1,7 +1,7 @@
 ---
 title: Update Plex on Linux
 date: 2022-11-10 10:00:00 -0500
-categories: [linux, plex]
+categories: [plex]
 tags: [linux,plex]
 ---
 
