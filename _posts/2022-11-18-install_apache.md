@@ -15,6 +15,30 @@ tags: [linux,apache,httpd,jekyll,html]
 sudo apt install apache2
 ```
 
+### Firewall
+
+```terminal
+sudo ufw enable
+```
+
+```terminal
+sudo ufw app list
+```
+
+```terminal
+sudo ufw allow 'Apache Full'
+```
+
+```terminal
+sudo ufw status
+```
+
+### Check Status
+
+```terminal
+systemctl status apache2
+```
+
 > This is a "tip box"
 {: .prompt-tip }
 
