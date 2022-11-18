@@ -5,7 +5,7 @@ categories: [linux]
 tags: [linux,hostname]
 ---
 
-### How to Change your Hostname
+### How to Change your Hostname.  Cause ya
 
 ```bash
 hostname NEW_NAME_HERE
