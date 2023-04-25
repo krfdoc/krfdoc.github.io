@@ -1,8 +1,8 @@
 ---
 title: XCP-ng PCI Passthrough
 date: 2023-04-25 10:00:00 -0500
-categories: [XCP-ng]
-tags: [linux,XCP-ng,Passthrough]
+categories: [xcp-ng]
+tags: [linux,xcp-ng,passthrough]
 ---
 
 ## XCP-ng PCI Passthrough
