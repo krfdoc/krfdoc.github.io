@@ -1,7 +1,7 @@
 ---
 title: Linux Commands
 date: 2022-11-18 10:00:00 -0500
-categories: [Linux]
+categories: [linux]
 tags: [linux,copy,remove]
 ---
 

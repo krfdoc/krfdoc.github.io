@@ -1,7 +1,7 @@
 ---
 title: Install Apache WebServer
 date: 2022-11-18 3:00:00 -0500
-categories: [Linux]
+categories: [linux]
 tags: [linux,apache,httpd,jekyll,html]
 ---
 
