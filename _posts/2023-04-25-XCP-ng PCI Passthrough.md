@@ -29,26 +29,15 @@ lspci
 ```terminal
 xl pci-assignable-list
 ```
-
-### Next...etc...whatever
-
+* Put PCI device into VM
 ```terminal
-sudo cp -r /path/to/directory /path/to/location/new-name
+xe vm-param-setother-config:pci=0/0000:04:01.0uuid=<vm uuid>
 ```
-
-> -r means recursive and should be used to perform action on all sub folders and files
-{: .prompt-tip }
-
-### Remove
-
+* To set multiple (example)
 ```terminal
-sudo rm -r /path/to/dir
+xe vm-param-setother-config:pci=0/0000:04:01.0,0/0000:00:19.0uuid=<vm uuid>
 ```
-
-> This is a "info box"
-{: .prompt-info }
-
-
-
-> This is a "danger box"
-{: .prompt-danger }
+* Start VM and be happy
+```terminal
+xe vm-start uuid=<vm uuid>
+```
