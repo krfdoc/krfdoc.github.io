@@ -1,7 +1,7 @@
 ---
 title: Chirpy & Jekyll Documentation
 date: 2022-11-14 5:00:00 -0500
-categories: [Jekyll, Chirpy]
+categories: [Jekyll]
 tags: [jekyll,chirpy]
 ---
 
