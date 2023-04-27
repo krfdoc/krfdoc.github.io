@@ -8,8 +8,8 @@ tags: [minecraft,seeds,seed-maps,minecraft-server]
 ## Minecraft
 
 ### Personal Seed Maps
-[KRF's Seed Map](https://www.chunkbase.com/apps/seed-map#-1182128540532934599)
-[Lew and Dad's Seed Map](https://www.chunkbase.com/apps/seed-map#-6953476837232445004)
+* [KRF's Seed Map](https://www.chunkbase.com/apps/seed-map#-1182128540532934599)
+* [Lew and Dad's Seed Map](https://www.chunkbase.com/apps/seed-map#-6953476837232445004)
 
 ### Custom Server Script
 Located at `/home/krf/` *must verify!
