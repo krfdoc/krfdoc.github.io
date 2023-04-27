@@ -19,7 +19,8 @@ sudo systemctl start plexediaserver.service
 
 ### CIFS/SMB Mounting (Section still needs work)
 
-See fstab file examples.  Watch permissions, but haven't figured out completely yet. I've been using open/guest privledges  
+See fstab file examples.  Watch permissions, but the UID (and therefor user/grp) is applied on the fstab file. I've been using open/guest privledges, but once I assigned the plex user (by adding it's UID) to the fstab file, plex has been operating great with the share.  I can now delete system files from the UI.
+  
 Need to mount using "sudo mount -a" afer fstab cool. cool?
 
 ```bash
