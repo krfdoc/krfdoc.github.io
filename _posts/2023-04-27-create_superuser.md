@@ -1,8 +1,8 @@
 ---
-title: Create Super User & Use Root Shell
+title: Create Super User and Use Root Shell
 date: 2023-04-27 3:00:00 -0500
 categories: [linux]
-tags: [create-user, root]
+tags: [create-user,root]
 ---
 
 ## Create Super User in Linux & Use Root Shell
@@ -30,6 +30,7 @@ sudo -i
 ```terminal
 su
 ```
+
 * Note that it will ask for the root password and not your login password.  These are not the same.  You may have to set or change the root password by running:
 ```terminal
 sudo passwd root
