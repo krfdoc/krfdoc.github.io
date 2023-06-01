@@ -31,6 +31,3 @@ services:
     security_opt:
       - no-new-privileges:true
 ```
-
-> Figure out how to update dude and document
-{: .prompt-warning }
