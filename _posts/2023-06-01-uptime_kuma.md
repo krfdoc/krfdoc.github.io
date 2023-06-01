@@ -5,7 +5,7 @@ categories: [docker]
 tags: [uptimekuma]
 ---
 
-## Kuma Links --PENDING--NOT UPDATE YET AS YOU CAN SEE
+## Kuma Links PENDING NOT UPDATE YET AS YOU CAN SEE
 
 [Dashy Mgmnt](https://github.com/Lissy93/dashy/blob/master/docs/management.md)
 
@@ -32,5 +32,5 @@ services:
       - no-new-privileges:true
 ```
 
-> Figure out how to update dude and document!
+> Figure out how to update dude and document
 {: .prompt-warning }
