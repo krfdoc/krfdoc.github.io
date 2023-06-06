@@ -13,6 +13,8 @@ tags: [xcp-ng]
 
 [Xen Orchestra Installer/Updater - Github ronivay](https://github.com/ronivay/XenOrchestraInstallerUpdater)
 
+* cd into your home dir and run `sudo ./xo-install.sh`  ...that's it!
+
 Lawerence Systems: How to build XO from sources on Debian 10 (or Ubuntu) using XenOrchestraInstallerUpdater
 
 [![See Tom build!](https://i.ytimg.com/vi/bq1iKO-0jWs/hqdefault.jpg?)](https://www.youtube.com/watch?v=bq1iKO-0jWs&t=10s "See Tom build!")
