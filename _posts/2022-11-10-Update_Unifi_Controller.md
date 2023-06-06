@@ -9,7 +9,7 @@ tags: [unifi]
 
 * SSH and login as root `sudo -i`
 
-* User the "one-liner" baby!
+* User the one-liner baby!
 
 ```terminal
 rm unifi-update.sh &> /dev/null; wget https://get.glennr.nl/unifi/update/unifi-update.sh && bash unifi-update.sh
