@@ -19,6 +19,10 @@ tags: [ubuntu,lvm]
 df -h
 ```
 
+* To check for existing free space on your Volume Group (where it is left by the installer default settings), run the command `vgdisplay` and check for free space.  Look under the `Free PE / Size` row
+
+* To use up that free space on your Volume Group (VG) for your root Logical Volume (LV), first run the `lvdisplay` command and check the Logical Volume size, then run `lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv` to extend the LV to the maximum size usable, then run `lvdisplay` one more time to make sure it changed.
+
 * safasdfa
 ```terminal
 safasf
