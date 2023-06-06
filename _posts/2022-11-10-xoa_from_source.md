@@ -5,7 +5,7 @@ categories: [xcp-ng]
 tags: [xcp-ng,xoa]
 ---
 
-## How to update your Xen Orchestra instance
+## How to update your Xen Orchestra Instance
 
 [Xen Orchestra Installer/Updater - Github ronivay](https://github.com/ronivay/XenOrchestraInstallerUpdater)
 
