@@ -5,7 +5,18 @@ categories: [unifi]
 tags: [unifi]
 ---
 
-### How to Update your Unifi Controller
+## Update your controller
+
+* SSH and login as root `sudo -i`
+
+* User the "one-liner" baby!
+
+```terminal
+rm unifi-update.sh &> /dev/null; wget https://get.glennr.nl/unifi/update/unifi-update.sh && bash unifi-update.sh
+```
+
+
+### How to Install your Unifi Controller
 
 [See the Easy Unifi Updater forum post](https://community.ubnt.com/t5/UniFi-Wireless/UniFi-Installation-Scripts-UniFi-Easy-Update-Scripts-Ubuntu-18/td-p/2375150)
 
