@@ -7,11 +7,7 @@ tags: [uptimekuma]
 
 ## Kuma Links PENDING NOT UPDATE YET AS YOU CAN SEE
 
-[Dashy Mgmnt](https://github.com/Lissy93/dashy/blob/master/docs/management.md)
-
-[Dashy Configuration](https://github.com/Lissy93/dashy/blob/master/docs/configuring.md)
-
-[Dashy Website](https://dashy.to/)
+[UpTime Kuma - Github](https://github.com/louislam/uptime-kuma)
 
 ### Docker Compose
 
@@ -31,3 +27,15 @@ services:
     security_opt:
       - no-new-privileges:true
 ```
+
+### Update Kuma
+
+* Just follow same produre as portainer update.  Don't have to use CLI tho.  
+* Back up local/persistant data directory - save off to your smb share
+* Following can all be done via Portainer UI!
+* Stop container
+* Remove container
+* Stop stack
+* Delete image (cause "latest" tag isn't used for some stupid reason!)
+* Start stack (during this process new image will be downloaded and new container deployed)
+* Please note: Compose script existing already in stack will have persistent local directory already mapped.  Kinda cool huh?
