@@ -9,6 +9,8 @@ tags: [homeassistant,docker]
 
 [Home Assistant Installation](https://www.home-assistant.io/installation/linux)
 
+[Guide/Setup - p onboarding](https://www.home-assistant.io/getting-started/concepts-terminology/)
+
 
 ### Docker Compose
 
