@@ -30,3 +30,12 @@ sudo rm -r /path/to/dir
 
 > This is a "danger box"
 {: .prompt-danger }
+
+
+## fstab info
+
+### Because I was too lazy to create a separate post for Linux links only
+
+[Allow Users in fstab File to RW to a partition](https://www.baeldung.com/linux/fstab-file-users-read-write-partition)
+
+[How do I mount a CIFS share via FSTAB and give full RW to Guest](https://askubuntu.com/questions/313093/how-do-i-mount-a-cifs-share-via-fstab-and-give-full-rw-to-guest)
