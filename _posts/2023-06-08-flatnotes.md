@@ -37,7 +37,3 @@ services:
 ```
 
 ### KRF Custom Template
-
-```terminal
-custom goes here
-```
