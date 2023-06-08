@@ -24,3 +24,7 @@ Lawerence Systems: How to build XO from sources on Debian 10 (or Ubuntu) using X
 ### More custom documentation to follow
 
 `I'll add more custom intructions to this post when I have to rebuild/update my Xen Orchestra VM`
+
+## XCP-ng Links
+
+[Official Guide - Networking](https://xcp-ng.org/docs/networking.html#manage-physical-nics)
