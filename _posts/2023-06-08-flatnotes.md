@@ -2,7 +2,7 @@
 title: Flatnotes
 date: 2023-06-08 9:00:00 -0500
 categories: [docker]
-tags: [markdown]
+tags: [flatnotes,markdown]
 ---
 
 
@@ -67,4 +67,4 @@ services:
     ports:
       - "7475:8080" # change first set to whatever you need
     restart: unless-stopped
-```
+```    
