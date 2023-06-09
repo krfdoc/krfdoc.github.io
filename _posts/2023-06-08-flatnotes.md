@@ -62,5 +62,5 @@ services:
       - "8080:8080"
     restart: unless-stopped
 ```
-> This is a "info box"
+> `AUTH_TYPE` can be "none", "password", or "TOTP"
 {: .prompt-info }
