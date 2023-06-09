@@ -38,6 +38,9 @@ services:
     restart: unless-stopped
 ```
 
+> `AUTH_TYPE` can be "none", "password", or "TOTP"
+{: .prompt-info }
+
 ### KRF Custom Template
 
 ```terminal
@@ -50,17 +53,18 @@ services:
     environment:
       PUID: 1000
       GUID: 1000
+      # AUTH_TYPE can be "none", "password", or "TOTP"
       FLATNOTES_AUTH_TYPE: "password"
-      FLATNOTES_USERNAME: "user"
-      FLATNOTES_PASSWORD: "changeMe!"
+      # If "totp" is used, activate following line & insert 32 char string
+      # FLATNOTES_TOTP_KEY: "123abc..."
+      FLATNOTES_USERNAME: "krf"
+      FLATNOTES_PASSWORD: "password"
       FLATNOTES_SECRET_KEY: "aLongRandomSeriesOfCharacters"
     volumes:
-      - "./data:/data"
+      - "/home/krf/docker_volumes/flatnotes:/data"
       # Optional. Allows you to save the search index in a different location: 
       # - "./index:/data/.flatnotes"
     ports:
-      - "8080:8080"
+      - "7475:8080" # change first set to whatever you need
     restart: unless-stopped
 ```
-> `AUTH_TYPE` can be "none", "password", or "TOTP"
-{: .prompt-info }
