@@ -67,4 +67,7 @@ services:
     ports:
       - "7475:8080" # change first set to whatever you need
     restart: unless-stopped
-```    
+```
+
+> AUTH_TYPE: "password" will litterally make your password = password!  There is no way to change it in the application!
+{: .prompt-danger }
