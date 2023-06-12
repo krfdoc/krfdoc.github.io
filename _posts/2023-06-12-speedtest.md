@@ -53,5 +53,5 @@ services:
         restart: unless-stopped
 ```
 
-> extra box yo
+> Default UN: admin@example.com  Default Password: password
 {: .prompt-danger }
