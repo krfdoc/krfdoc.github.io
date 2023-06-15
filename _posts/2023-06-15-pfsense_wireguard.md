@@ -21,6 +21,9 @@ tags: [wireguard,vpn]
 
 ### Linux Client-Side Setup
 
+> run as root user or sudo everything yo
+{: .prompt-warning }
+
 * Install wireguard
 `apt-get install wireguard`
 
@@ -36,7 +39,8 @@ umask 077; wg genkey | tee privatekey | wg pubkey > publickey
 * Create the local client's Wireguard config:
 `nano /etc/wireguard/"urconfigname".conf`
 
-* "urconfigname" is entered w/out quotes of course
+> "urconfigname" is entered w/out quotes of course
+{: .prompt-info }
 
 ```terminal
 [Interface]
@@ -62,7 +66,8 @@ PrivateKey = <Your Private Key Goes Here>
  AllowedIPs = 10.10.99.0/24, 10.10.1.0/24, 10.10.2.0/24, 10.10.3.0/27
 ```
 
-* Don't forget to change to custom port listed in pfSense.  You're NOT using the default
+> Don't forget to change to custom port listed in pfSense.  You're NOT using the default
+{: .prompt-danger }
 
 
 ### Additional Links/Videos
