@@ -17,7 +17,7 @@ tags: [wireguard,vpn]
 
 ### Adding a single peer to pfSense
 
-`start ~11:00 into the video`
+start ~11:00 into the [video](https://www.youtube.com/watch?v=8jQ5UE_7xds)
 
 ### Linux Client-Side Setup
 
@@ -47,7 +47,9 @@ umask 077; wg genkey | tee privatekey | wg pubkey > publickey
 PrivateKey = <Your Private Key Goes Here>
 Address=10.10.99.x/24
 ```
-* please note the Address above (under interface), is for the client.  So for your network, it would be a 10.10.99.2 or .3 or .4 or .5 or whatever peer count you're up to
+
+> please note the "10.10.99.x" Address above (under interface), is for the client.  So for your network, it would be a 10.10.99.2 or .3 or .4 or .5 or whatever peer count you're up to
+{: .prompt-tip }
 
 Run `wg-quick up "urconfigname"` to make sure the system comes up and run `wg-quick down "urconfigname"` to take down the interface.
 
