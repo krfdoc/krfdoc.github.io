@@ -12,7 +12,7 @@ tags: [minecraft,seeds,seed-maps,minecraft-server]
 * [Lew and Dad's Seed Map](https://www.chunkbase.com/apps/seed-map#-6953476837232445004)
 
 ### Custom Server Script
-Located at `/home/krf/` *must verify!
+Located at `/home/krf/`
 * start server
 ```terminal
 sudo ./start.sh
@@ -22,6 +22,12 @@ Need to be in home directory where .jar file is located
 * or run the original (default) start-up script:
 ```terminal
 sudo java -Xms4G -Xmx6G -jar server.jar nogui
+```
+* Here's your custom start script named "start.sh"
+```terminal
+#!/bin/sh
+cd "$(dirname "$0")"
+exec java -Xms4G -Xmx6G -jar server.jar --nogui
 ```
 
 * Once minecraft server is running (you can tell from the XCP-ng terminal), just type `stop` then `enter`
