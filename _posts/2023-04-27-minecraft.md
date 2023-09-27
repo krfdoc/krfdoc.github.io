@@ -63,3 +63,10 @@ sudo java -Xms4G -Xmx6G -jar server.jar nogui
 You can press Ctrl+A+D to detach from this Screen session, which will place you back into the original terminal session you had while leaving Minecraft running inside the detached screen. 
 You can log out without stopping the process or use screen -r to reattach it and bring it back to the foreground.
 ```
+
+### To Update
+
+* Just replace the Java .jar file (usually named "server.jar", but can really be anything as long as it matches your start script) with the new one downloaded from here: `https://www.minecraft.net/en-us/download/server`
+
+
+* Simple as that.  Also a good idea to update the Ubuntu server while you're at it.  Feel free to archive off a version of the old Server.jar java file, but since there's no customizations within the .jar file itself, it shouldn't be a deal breaker
