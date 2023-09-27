@@ -49,7 +49,7 @@ User "mv" cli command to rename "world" folder.  New world is automatically crea
 
 /op Valridge #to grant user "Valridge" operater rights.  
 
-/deop Valrdige #remove rights
+/deop Valridge #remove rights
 ```
 
 ### Client (not server!) hotkeys and commands
@@ -69,6 +69,11 @@ sudo java -Xms4G -Xmx6G -jar server.jar nogui
 You can press Ctrl+A+D to detach from this Screen session, which will place you back into the original terminal session you had while leaving Minecraft running inside the detached screen. 
 You can log out without stopping the process or use screen -r to reattach it and bring it back to the foreground.
 ```
+### How to Setup a Server
+
+* `https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_server`
+
+* Note that you're basically creating a minecraft folder in your home directory and then putting the server.jar file in there.  Then run with the script or custom startup script.  Remember you will have to nano into the EULA to accept, and you probably want to go through the config file and make sure settings are correct.  Configs/Settings are in `server.properties`
 
 ### To Update
 
