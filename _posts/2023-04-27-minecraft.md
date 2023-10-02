@@ -73,7 +73,13 @@ You can log out without stopping the process or use screen -r to reattach it and
 
 * `https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_server`
 
-* Note that you're basically creating a minecraft folder in your home directory and then putting the server.jar file in there.  Then run with the script or custom startup script.  Remember you will have to nano into the EULA to accept, and you probably want to go through the config file and make sure settings are correct.  Configs/Settings are in `server.properties`
+* Note that you're basically creating a minecraft folder in your home directory (just use your home directory btw!  It'll be easier) and then putting the server.jar file in there.  Then run with the script or custom startup script.  Remember you will have to nano into the EULA to accept, and you probably want to go through the config file and make sure settings are correct.  `Don't forget to add your Seed ID before you start it!`  Configs/Settings are in `server.properties`
+
+* After that you have to assign execution permissions for the script(s). You do that with the following command:
+
+```terminal
+chmod +x start.sh
+```
 
 ### To Update
 
