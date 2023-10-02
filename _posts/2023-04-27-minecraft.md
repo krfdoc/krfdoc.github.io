@@ -9,7 +9,8 @@ tags: [minecraft,seeds,seed-maps,minecraft-server]
 
 ### Personal Seed Maps
 * [KRF's Seed Map](https://www.chunkbase.com/apps/seed-map#-1182128540532934599)
-* [Lew and Dad's Seed Map](https://www.chunkbase.com/apps/seed-map#-6953476837232445004)
+* [SURVIVAL-Lew and Dad's Seed Map](https://www.chunkbase.com/apps/seed-map#-7871458779404887414)
+* [CREATIVE-Lew's Seed Map](https://www.chunkbase.com/apps/seed-map#-6953476837232445004)
 
 ### Custom Server Script
 Located at `/home/krf/`
@@ -73,7 +74,7 @@ You can log out without stopping the process or use screen -r to reattach it and
 
 * `https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_server`
 
-* Note that you're basically creating a minecraft folder in your home directory (just use your home directory btw!  It'll be easier) and then putting the server.jar file in there.  Then run with the script or custom startup script.  Remember you will have to nano into the EULA to accept, and you probably want to go through the config file and make sure settings are correct.  `Don't forget to add your Seed ID before you start it!`  Configs/Settings are in `server.properties`
+* Note that you're basically creating a minecraft folder in your home directory (just use your home directory btw!  It'll be easier) and then putting the server.jar file in there.  Then run with the script or custom startup script.  Remember you will have to nano into the EULA to accept, and you probably want to go through the config file and make sure settings are correct.  `Don't forget to add your Seed ID before you start it! (optional, but cool if you want a nice map-spawn point)`  Configs/Settings are in `server.properties`
 
 * After that you have to assign execution permissions for the script(s). You do that with the following command:
 
