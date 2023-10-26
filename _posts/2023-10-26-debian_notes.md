@@ -10,6 +10,8 @@ tags: [debian]
 * Modify nameservers here:
 `/etc/resolv.conf`
 
+* Not sure if this option persists!  More notes may be needed!
+
 ### Add Debian mirror/archvive/resource for apt
 
 * Add the following in `/etc/apt/sources.list`
