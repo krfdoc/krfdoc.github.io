@@ -1,0 +1,29 @@
+---
+title: Debian Notes
+date: 2023-10-26 9:00:00 -0500
+categories: [linux]
+tags: [debian]
+---
+
+## Change Hostname
+
+* Modify nameservers here:
+`/etc/resolv.conf`
+
+### Add Debian mirror/archvive/resource for apt
+
+* Add the following in `/etc/apt/sources.list`
+
+```terminal
+deb http://deb.debian.org/debian/ bookworm main non-free-firmware contrib non-free
+deb-src http://deb.debian.org/debian/ bookworm main non-free-firmware contrib non-free
+```
+
+### More notes someday
+
+`More notes to come if/when I need them for this section`
+
+* blah blah ...I actually did need to do this next section once.  It sucked.
+```terminal
+blah blah blah
+    ```
