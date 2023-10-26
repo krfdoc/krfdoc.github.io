@@ -12,7 +12,7 @@ tags: [debian]
 
 * Not sure if this option persists!  More notes may be needed!
 
-### Add Debian mirror/archvive/resource for apt
+## Add Debian mirror/archvive/resource for apt
 
 * Add the following in `/etc/apt/sources.list`
 
@@ -21,11 +21,11 @@ deb http://deb.debian.org/debian/ bookworm main non-free-firmware contrib non-fr
 deb-src http://deb.debian.org/debian/ bookworm main non-free-firmware contrib non-free
 ```
 
-### More notes someday
+## More notes someday
 
 `More notes to come if/when I need them for this section`
 
-* blah blah ...I actually did need to do this next section once.  It sucked.
+* blah blah
 ```terminal
 blah blah blah
     ```
