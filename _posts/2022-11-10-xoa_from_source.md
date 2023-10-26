@@ -33,6 +33,13 @@ cp sample.xo-install.cfg xo-install.cfg
 
 * cd into your home dir and run `sudo ./xo-install.sh`  that's it
 
+* Login to VM using IP/Hostname of VM running the install.  Default credentials:
+
+```terminal
+user: admin@admin.net
+pass: admin
+```
+
 ### Links and Video
 
 [Tom's blog post](https://forums.lawrencesystems.com/t/how-to-build-xo-from-sources-on-debian-10-using-xenorchestrainstallerupdater/4597)
