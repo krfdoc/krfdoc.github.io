@@ -9,9 +9,29 @@ tags: [xcp-ng,xoa]
 
 [Xen Orchestra Installer/Updater - Github ronivay](https://github.com/ronivay/XenOrchestraInstallerUpdater)
 
-* cd into your home dir and run `sudo ./xo-install.sh`  that's it
+* Keith, please add command to update git branch so you can run the updated script from ronivay and then choose update.  That should be all that's needed really to update.
 
 ## How to build Xen Orchestra from source
+
+* Don't forget to update your VM and all that jazz.  Use Debian or Ubuntu of course.  Then, install git
+
+```terminal
+sudo apt install git
+```
+
+* Clone the repository
+
+```terminal
+git clone https://github.com/ronivay/XenOrchestraInstallerUpdater.git
+```
+
+* Copy the sample config to the real config.  No real changes needed from default unless you go the port 443 route w/ certs.  That's always fun right?
+
+```terminal
+cp sample.xo-install.cfg xo-install.cfg
+```
+
+* cd into your home dir and run `sudo ./xo-install.sh`  that's it
 
 ### Links and Video
 
@@ -20,10 +40,6 @@ tags: [xcp-ng,xoa]
 Lawerence Systems: How to build XO from sources on Debian 10 (or Ubuntu) using XenOrchestraInstallerUpdater
 
 [![See Tom build!](https://i.ytimg.com/vi/bq1iKO-0jWs/hqdefault.jpg?)](https://www.youtube.com/watch?v=bq1iKO-0jWs&t=10s "See Tom build!")
-
-### More custom documentation to follow
-
-`I'll add more custom intructions to this post when I have to rebuild/update my Xen Orchestra VM`
 
 ## XCP-ng Links
 
