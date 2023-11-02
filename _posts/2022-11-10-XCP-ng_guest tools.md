@@ -36,6 +36,17 @@ No need to reboot even tho I normally do anyways.
 
 * Make sure to eject the guest tools ISO when done
 
+## Load onto pfSense
+
+```bash
+pkg install xe-guest-utilities
+echo 'xenguest_enable="YES"' >> /etc/rc.conf.local
+ln -s /usr/local/etc/rc.d/xenguest /usr/local/etc/rc.d/xenguest.sh
+service xenguest start
+```
+
+[XCP-ng's pfSense Guide](https://xcp-ng.org/blog/2019/08/20/how-to-install-pfsense-in-a-vm/)
+
 ## Video Res Issues.  Start here
 
 [XCP-ng VM's display res locked](https://forums.lawrencesystems.com/t/xcp-ng-vms-display-resolution-locked/10988)
