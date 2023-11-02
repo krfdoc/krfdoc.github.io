@@ -1,16 +1,26 @@
 ---
-title: Create Super User and Use Root Shell
+title: Ubuntu User Management
 date: 2023-04-27 3:00:00 -0500
 categories: [linux]
 tags: [create-user,root]
 ---
 
+[Ubuntu User Mgmt](https://ubuntu.com/server/docs/security-users)
+
 ## Create Super User in Linux & Use Root Shell
 
 ### Create New user
 
+* if running as std user make sure to add sudo:
+
 ```terminal
 adduser newuser
+```
+
+### Delete existing user
+
+```terminal
+deluser username
 ```
 
 ### Add a root (super) user
