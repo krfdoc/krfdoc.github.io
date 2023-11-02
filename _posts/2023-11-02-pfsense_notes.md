@@ -1,11 +1,28 @@
 ---
-title: Clear DHCP leases manually in pfSense
-date: 2022-11-11 3:00:00 -0500
+title: pfSense Notes
+date: 2023-11-02 3:00:00 -0500
 categories: [pfsense]
 tags: [pfsense]
 ---
 
-### How to clear pfSense DHCP leases manually.  On YOUR terms!
+## How to enable WAN interface management from shell
+
+### disable packet filter
+
+* Log into Shell (SSH or CLI via console)
+* Disable packet filter entirely to access web interface from any interfaces.  Useful for temporary or first time setup only.  You will be vulnerable if left disabled!
+
+```terminal
+pfctl -d
+```
+
+* Enable it back:
+
+```terminal
+pfctl -e
+```
+
+## How to clear pfSense DHCP leases manually.  On YOUR terms!
 
 In PfSense, instead of waiting for expired DHCP leases to be reclaimed, one may want to manually clear expired leases. 
 
