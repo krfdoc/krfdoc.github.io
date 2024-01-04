@@ -5,12 +5,6 @@ categories: [xcp-ng]
 tags: [xcp-ng,xoa]
 ---
 
-## Here is the new Tom Lawrence guide
-
-[New build video](https://www.youtube.com/watch?v=fuS7tSOxcSo)
-
-* Update as necessary.  I guess this page may need a little work
-
 ## How to update your Xen Orchestra Instance
 
 [Xen Orchestra Installer/Updater - Github ronivay](https://github.com/ronivay/XenOrchestraInstallerUpdater)
