@@ -5,13 +5,11 @@ categories: [xcp-ng]
 tags: [xcp-ng,xoa]
 ---
 
-## Here's the new Tom Lawrence guide.  Update as necessary!
+## Here is the new Tom Lawrence guide.  Update as necessary
 
 * I guess this page may need a little work
 
-[NEW Tom Lawrence Video!](https://youtu.be/fuS7tSOxcSo?feature=shared)
-
-
+[NEW Tom Lawrence Video](https://youtu.be/fuS7tSOxcSo?feature=shared)
 
 ## How to update your Xen Orchestra Instance
 
