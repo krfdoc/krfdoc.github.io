@@ -7,9 +7,9 @@ tags: [xcp-ng,xoa]
 
 ## Here is the new Tom Lawrence guide
 
-* Update as necessary.  I guess this page may need a little work
+[New build video](https://www.youtube.com/watch?v=fuS7tSOxcSo)
 
-[NEW Tom Lawrence Video](https://youtu.be/fuS7tSOxcSo?feature=shared)
+* Update as necessary.  I guess this page may need a little work
 
 ## How to update your Xen Orchestra Instance
 
